@@ -1,0 +1,9 @@
+{% assign team_member = include.team_member %}
+{{ team_member.name }}
+{%- if team_member.email != blank -%}
+, {{ team_member.email }}
+{%- endif -%}
+{%- if team_member.phone != blank -%}
+{%- assign phone = team_member.phone | split: '' -%}
+, ({{ phone[0] }}{{ phone[1] }}{{ phone[2] }}) {{ phone[3] }}{{ phone[4] }}{{ phone[5] }}-{{ phone[6] }}{{ phone[7] }}{{ phone[8] }}{{ phone[9] }}
+{%- endif -%}
