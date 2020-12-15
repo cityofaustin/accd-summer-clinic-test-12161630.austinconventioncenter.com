@@ -1,3 +1,9 @@
+title: "2021 Summer Clinic "
+description: Your one-stop shop for planning your event at the Austin Convention Center
+url: https://summer-clinic-test-12161630.austinconventioncenter.com
+incentive_rate_deadline: 2021-06-12 
+floor_plan_deadline: 2020-12-12 
+sign_submission_deadline: 2021-04-12 
 theme: 
 remote_theme: cityofaustin/jekyll-theme-kocurek@v0.3
 searchable: true
@@ -63,9 +69,9 @@ collections:
     output: true
     name: Digital Sponsorship/Branding
     section_order: 14
-  service_yard:
+  service_yards:
     output: true
-    name: Service Yard
+    name: Service Yards
     section_order: 15
   parking:
     output: true
@@ -85,7 +91,7 @@ collections:
     section_order: 19
   downloadable_resources:
     output: true
-    name: Downloadable Resources
+    name: downloadable_resources
     section_order: 20
 permalink: pretty
 defaults:
@@ -111,3 +117,4 @@ defaults:
       path: "pdf.md"
     values:
       layout: "pdf"
+
